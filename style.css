@@ -1,0 +1,125 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(203,63,251,1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#panel-center1 {
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#panel-center2 {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+#panel-center-right {
+    text-align: center;
+}
+
+.field {
+    background-color: rgb(217, 208, 208);
+    border: none;
+    border-radius: 50px;
+    height: 35px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.field input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .85em;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, i, .field input {
+    color: #313030;
+}
+
+#input-login {
+    background-color: rgb(41, 174, 68);
+    justify-content: center;
+    transition: all .2s ease-in-out;
+    margin-top: 30px;
+}
+
+#input-login:hover {
+    background-color: rgb(39, 163, 63);
+    cursor: pointer;
+}
+
+#input-login input {
+    color: white;
+    margin: 0;
+    transition: all .2s ease-in-out;
+}
+
+#input-login input:hover {
+    cursor: pointer;
+}
+
+a {
+    font-size: .8em;
+    color: #313030;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.fa {
+    transition: all .2s ease-in-out;
+}
+
+a:hover .fa {
+    margin-left: 5px;
+}
+
+#error {
+    color: red;
+    font-size: .8em;
+    margin-top: 30px;
+}
+
+#succ {
+    color: green;
+    font-size: .8em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
